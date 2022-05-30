@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit2 C2</title>
+    <style>
+      *{
+        margin-top: 15px;
+        text-align: center;
+      }
+      .banner{
+        background-color: rgb(34, 34, 177);
+        border-radius: 20px;
+      }
+      .firstH{
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 30px;
+          }
+          .bline{
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: left;
+      }
+      button{
+        background-color: white;
+        height: 50px;
+        width: 120px;
+        border-radius: 10px;
+        border: 2px solid black;
+      }
+      img{
+        width: 350px;
+        margin-left: 900px;
+        margin-top: 20px;
+      } 
+      .box {
+          display: flex;
+          margin: auto;
+          height: auto;
+          width: auto;
+          margin-left: 5px;
+      }
+      .siximg{
+        background-color: rgb(189, 235, 235);
+        margin: auto;
+        height: 240px;
+        width: auto;
+        margin-left: 11px;
+      }
+      .siximgp{
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .siximgp2{
+        color: rgb(165, 164, 164);
+        font-weight: bold;
+        font-size: 15px;
+      }
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      .workimg{
+        margin: auto;
+        width: 20%;
+          }
+          .eightimg{
+            display: flex;
+            width: 70%;
+            height: auto;
+            margin: auto;
+          }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="banner">
+        <div class="banner">
+          <div class="firstH">You are in safe hands</div>
+          <div class="bline">Choose the experts in end to end surgical care</div>
+          <button>Know more</button>
+          <img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png">
+          
+        </div>
+      </div>
+      <div id="services">
+      <div class="box">
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+        <p class="siximgp">Instant Video consulation</p>
+        <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+          <p class="siximgp">Instant Video consulation</p>
+          <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+          <p class="siximgp">Instant Video consulation</p>
+          <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+          <p class="siximgp">Instant Video consulation</p>
+          <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+          <p class="siximgp">Instant Video consulation</p>
+          <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        <div><img class="siximg" src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+          <p class="siximgp">Instant Video consulation</p>
+          <p class="siximgp2">Connect within 60 secs</p>
+        </div>
+        
+      </div>  
+      </div>
+      <div id="works">
+        <h1>Book an appointment for an in-clinic consultation</h1>
+          <p>Find experienced doctors across all specialties</p>
+        <div class="eightimg">
+          <div class="workimg"><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"></div>
+          <div class="workimg"><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"></div>
+          <div class="workimg"><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"></div>
+          <div class="workimg"><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"></div>
+      </div>
+    </div>
+  </body>
+</html>
